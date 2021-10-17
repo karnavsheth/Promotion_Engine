@@ -1,0 +1,17 @@
+C:\Users\karnav\source\repos\Promotion_Engine\Promotion_Engine_Unit_Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\karnav\source\repos\Promotion_Engine\Promotion_Engine_Unit_Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\karnav\source\repos\Promotion_Engine\Promotion_Engine_Unit_Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\karnav\source\repos\Promotion_Engine\Promotion_Engine_Unit_Test\bin\Debug\Promotion_Engine_Unit_Test.dll
+C:\Users\karnav\source\repos\Promotion_Engine\Promotion_Engine_Unit_Test\bin\Debug\Promotion_Engine_Unit_Test.pdb
+C:\Users\karnav\source\repos\Promotion_Engine\Promotion_Engine_Unit_Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\karnav\source\repos\Promotion_Engine\Promotion_Engine_Unit_Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\karnav\source\repos\Promotion_Engine\Promotion_Engine_Unit_Test\bin\Debug\Promotion_Engine.exe
+C:\Users\karnav\source\repos\Promotion_Engine\Promotion_Engine_Unit_Test\bin\Debug\Promotion_Engine.pdb
+C:\Users\karnav\source\repos\Promotion_Engine\Promotion_Engine_Unit_Test\bin\Debug\Promotion_Engine.exe.config
+C:\Users\karnav\source\repos\Promotion_Engine\Promotion_Engine_Unit_Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\karnav\source\repos\Promotion_Engine\Promotion_Engine_Unit_Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\karnav\source\repos\Promotion_Engine\Promotion_Engine_Unit_Test\obj\Debug\Promotion_Engine_Unit_Test.csprojAssemblyReference.cache
+C:\Users\karnav\source\repos\Promotion_Engine\Promotion_Engine_Unit_Test\obj\Debug\Promotion_Engine_Unit_Test.csproj.CoreCompileInputs.cache
+C:\Users\karnav\source\repos\Promotion_Engine\Promotion_Engine_Unit_Test\obj\Debug\Promotion_Engine_Unit_Test.csproj.CopyComplete
+C:\Users\karnav\source\repos\Promotion_Engine\Promotion_Engine_Unit_Test\obj\Debug\Promotion_Engine_Unit_Test.dll
+C:\Users\karnav\source\repos\Promotion_Engine\Promotion_Engine_Unit_Test\obj\Debug\Promotion_Engine_Unit_Test.pdb

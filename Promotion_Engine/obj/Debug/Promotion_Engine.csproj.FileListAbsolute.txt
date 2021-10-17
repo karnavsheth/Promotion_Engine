@@ -1,0 +1,7 @@
+C:\Users\karnav\source\repos\Promotion_Engine\Promotion_Engine\bin\Debug\Promotion_Engine.exe.config
+C:\Users\karnav\source\repos\Promotion_Engine\Promotion_Engine\bin\Debug\Promotion_Engine.exe
+C:\Users\karnav\source\repos\Promotion_Engine\Promotion_Engine\bin\Debug\Promotion_Engine.pdb
+C:\Users\karnav\source\repos\Promotion_Engine\Promotion_Engine\obj\Debug\Promotion_Engine.csprojAssemblyReference.cache
+C:\Users\karnav\source\repos\Promotion_Engine\Promotion_Engine\obj\Debug\Promotion_Engine.csproj.CoreCompileInputs.cache
+C:\Users\karnav\source\repos\Promotion_Engine\Promotion_Engine\obj\Debug\Promotion_Engine.exe
+C:\Users\karnav\source\repos\Promotion_Engine\Promotion_Engine\obj\Debug\Promotion_Engine.pdb
