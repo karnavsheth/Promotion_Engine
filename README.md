@@ -21,7 +21,7 @@ D      15</br>
 C & D for 30</br>
 
 </br>
-For extensibilty stand point, Strategy Design pattern is being used.
+For extensibilty stand point, Strategy Design pattern is being used. There is separate project for unit testing which is based on MSTest framework. 
 
 ![image](https://user-images.githubusercontent.com/25846337/137758306-9774bd1f-efbf-4354-bab4-1a21006aabf3.png)
 
