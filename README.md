@@ -9,7 +9,7 @@ The promotion engine will need to calculate the total order value after applying
 The code is enough extensible to add any new type of promotional type in future. we are assuming here that, the promotions will be mutually exclusive; in other words if one is applied the other promotions will not apply.
 </br></br>
 <b>Test Setup: </b></br>
-Unit price for SKU IDs</br>
+Unit price for SKU IDs</br> (for ease of implementation this values are hardcoded for now. These can be easliy retrieved from database in actual implementation.)
 A      50</br>
 B      30</br>
 C      20</br>
