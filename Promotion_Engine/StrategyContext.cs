@@ -8,45 +8,48 @@ using System.Threading.Tasks;
 namespace Promotion_Engine
 {
 
-        public class StrategyContext
+    public class StrategyContext
+    {
+        Dictionary<string, IPromotionStrategy> strategyContext
+            = new Dictionary<string, IPromotionStrategy>();
+        public StrategyContext()
         {
-            Dictionary<string, IPromotionStrategy> strategyContext
-                = new Dictionary<string, IPromotionStrategy>();
-            public StrategyContext(double price)
-            {
             strategyContext.Add(nameof(NoDiscountStrategy),
                     new NoDiscountStrategy());
-
+            strategyContext.Add(nameof(Type1PromotionStrategy),
+                    new Type1PromotionStrategy());
+            strategyContext.Add(nameof(Type2PromotionStrategy),
+                    new Type2PromotionStrategy());
         }
 
-        public void ApplyStrategy(List<IPromotionStrategy> strategies, int[] nums)
-            {
+        public int ApplyStrategy(List<IPromotionStrategy> strategies, int[] nums)
+        {
 
-                var total = 0;
-                foreach (var strategy in strategies)
-                {
-                    total = total + strategy.GetPriceAfterPromotionalDiscount(nums);
-                }
-                Console.WriteLine("Price after offer:" + total);
+            var total = 0;
+            foreach (var strategy in strategies)
+            {
+                total = total + strategy.GetPriceAfterPromotionalDiscount(nums);
             }
+            return total;
+        }
 
-            public List<IPromotionStrategy> GetStrategy(int[] SKUArra)
+        public List<IPromotionStrategy> GetStrategy(int[] SKUArray)
+        {
+            List<IPromotionStrategy> iPromotionStrategy = new List<IPromotionStrategy>();
+            if (SKUArray[0] > 2 || SKUArray[1] > 1)
             {
-                List<IPromotionStrategy> iPromotionStrategy = new List<IPromotionStrategy>();
-                if (SKUArra[0] > 3 || SKUArra[1] > 1)
-                {
                 iPromotionStrategy.Add(strategyContext[nameof(Type1PromotionStrategy)]);
-                }
-                else if (SKUArra[2] > 1 && SKUArra[3] > 1)
-                {
+            }
+            else if (SKUArray[2] > 0 && SKUArray[3] > 0)
+            {
                 iPromotionStrategy.Add(strategyContext[nameof(Type2PromotionStrategy)]);
             }
-                else
-                {
+            else
+            {
                 //implement no discount values
                 iPromotionStrategy.Add(strategyContext[nameof(NoDiscountStrategy)]);
             }
-                return iPromotionStrategy;
-            }
+            return iPromotionStrategy;
         }
+    }
 }
